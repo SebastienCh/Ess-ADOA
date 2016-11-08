@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Products (E/R/H)</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Products (E/R/H)</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Products (E/R/H) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>Brand__c</name>
+        <picklistValues>
+            <masterLabel>Essilor</masterLabel>
+            <translation><!-- Essilor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nika</masterLabel>
+            <translation><!-- Nika --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;H</masterLabel>
+            <translation><!-- R&amp;H --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smile</masterLabel>
+            <translation><!-- Smile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Correction Type --></label>
+        <name>Correction_Type__c</name>
+        <picklistValues>
+            <masterLabel>PAL</masterLabel>
+            <translation><!-- PAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SV</masterLabel>
+            <translation><!-- SV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Finishing --></label>
+        <name>Finishing__c</name>
+        <picklistValues>
+            <masterLabel>Crizal Easy UV</masterLabel>
+            <translation><!-- Crizal Easy UV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crizal Forte UV</masterLabel>
+            <translation><!-- Crizal Forte UV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crizal Sun UV</masterLabel>
+            <translation><!-- Crizal Sun UV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optifog UV</masterLabel>
+            <translation><!-- Optifog UV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Index --></label>
+        <name>Index__c</name>
+        <picklistValues>
+            <masterLabel>1.5</masterLabel>
+            <translation><!-- 1.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.6</masterLabel>
+            <translation><!-- 1.6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.67</masterLabel>
+            <translation><!-- 1.67 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.74</masterLabel>
+            <translation><!-- 1.74 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Material --></label>
+        <name>Material__c</name>
+        <picklistValues>
+            <masterLabel>Mineral</masterLabel>
+            <translation><!-- Mineral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Organic</masterLabel>
+            <translation><!-- Organic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Month --></label>
+        <name>Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Month --></label>
+        <name>Percent_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- % PY --></label>
+        <name>Percent_PY__c</name>
+    </fields>
+    <fields>
+        <label><!-- % Year --></label>
+        <name>Percent_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phototrop --></label>
+        <name>Phototrop__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Polarized --></label>
+        <name>Polarized__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PY --></label>
+        <name>Previous_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projection --></label>
+        <name>Projection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purpose --></label>
+        <name>Purpose__c</name>
+        <picklistValues>
+            <masterLabel>Car</masterLabel>
+            <translation><!-- Car --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital</masterLabel>
+            <translation><!-- Digital --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subtype --></label>
+        <name>Subtype__c</name>
+        <picklistValues>
+            <masterLabel>Non-VX</masterLabel>
+            <translation><!-- Non-VX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VX</masterLabel>
+            <translation><!-- VX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <layouts>
+        <layout>Products (E/R/H) Layout</layout>
+        <sections>
+            <label><!-- Correction Type --></label>
+            <section>Correction Type</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

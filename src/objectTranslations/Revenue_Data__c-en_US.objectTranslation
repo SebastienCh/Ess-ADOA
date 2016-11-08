@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Revenue Data</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Revenue Data</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Revenue Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BWW3 Crizal City --></label>
+        <name>BWW3_Crizal_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- BWW3 Glass Revenue (Total) --></label>
+        <name>BWW3_Glass_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog Price (Bonus) --></label>
+        <name>Catalog_Price_Bonus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog Price (Free) --></label>
+        <name>Catalog_Price_Free__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catalog Price (Total) --></label>
+        <name>Catalog_Price_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Glass Revenue (Bonus) --></label>
+        <name>Glass_Revenue_Bonus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Glass Revenue (Free) --></label>
+        <name>Glass_Revenue_Free__c</name>
+    </fields>
+    <fields>
+        <label><!-- GrossCatalog restated --></label>
+        <name>GrossCatalog_restated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month --></label>
+        <name>Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue (Net) Crizal City --></label>
+        <name>Revenue_Net_Crizal_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Revenue (Net) --></label>
+        <name>Revenue_Net__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upfront Bonus --></label>
+        <name>Upfront_Bonus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vx Specialist Discount --></label>
+        <name>Vx_Specialist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <layouts>
+        <layout>Revenue Data Layout</layout>
+        <sections>
+            <label><!-- BWW3 Glass Revenue --></label>
+            <section>BWW3 Glass Revenue</section>
+        </sections>
+        <sections>
+            <label><!-- Bonus/Discounts --></label>
+            <section>Bonus/Discounts</section>
+        </sections>
+        <sections>
+            <label><!-- Catalog Price --></label>
+            <section>Catalog Price</section>
+        </sections>
+        <sections>
+            <label><!-- Crizal City --></label>
+            <section>Crizal City</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Net Revenue --></label>
+            <section>Net Revenue</section>
+        </sections>
+        <sections>
+            <label><!-- Revenue Information --></label>
+            <section>Revenue Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

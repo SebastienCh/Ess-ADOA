@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Personal Need</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Personal Needs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Discount on PP (%) --></label>
+        <name>Discount_on_PP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finishing --></label>
+        <name>Finishing__c</name>
+        <picklistValues>
+            <masterLabel>Crizal Easy UV</masterLabel>
+            <translation><!-- Crizal Easy UV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crizal Forte UV</masterLabel>
+            <translation><!-- Crizal Forte UV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crizal Sun UV</masterLabel>
+            <translation><!-- Crizal Sun UV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optifog UV</masterLabel>
+            <translation><!-- Optifog UV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Glas Type --></label>
+        <name>Glas_Type__c</name>
+        <picklistValues>
+            <masterLabel>Ideal</masterLabel>
+            <translation><!-- Ideal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Varilux Comfort NE</masterLabel>
+            <translation><!-- Varilux Comfort NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Varilux E Design</masterLabel>
+            <translation><!-- Varilux E Design --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Name__c</name>
+        <relationshipLabel><!-- Personal Need --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Personal Need Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

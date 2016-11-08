@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Visit Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Visit Reports</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Visit Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Activity Type --></label>
+        <name>Activity_Type__c</name>
+        <picklistValues>
+            <masterLabel>Call</masterLabel>
+            <translation><!-- Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visit</masterLabel>
+            <translation><!-- Visit --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Agreements --></label>
+        <name>Agreements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Visit Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Focus --></label>
+        <name>Focus__c</name>
+        <picklistValues>
+            <masterLabel>Acquisition</masterLabel>
+            <translation><!-- Acquisition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complaint Handling</masterLabel>
+            <translation><!-- Complaint Handling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Loyalty</masterLabel>
+            <translation><!-- Customer Loyalty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Presentation</masterLabel>
+            <translation><!-- Product Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Activity</masterLabel>
+            <translation><!-- Sales Activity --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Follow-Up Reminder --></label>
+        <name>Follow_Up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instruments --></label>
+        <name>Instruments__c</name>
+        <relationshipLabel><!-- Visit Reports --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Next Steps --></label>
+        <name>Next_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Topic --></label>
+        <name>Topic__c</name>
+        <picklistValues>
+            <masterLabel>Essilor</masterLabel>
+            <translation><!-- Essilor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nika</masterLabel>
+            <translation><!-- Nika --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;H</masterLabel>
+            <translation><!-- R&amp;H --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Visit_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Visit Report Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Next Steps --></label>
+            <section>Next Steps</section>
+        </sections>
+        <sections>
+            <label><!-- Objectives --></label>
+            <section>Objectives</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

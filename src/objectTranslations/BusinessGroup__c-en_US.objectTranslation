@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Business Group</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Business Groups</value>
+    </caseValues>
+    <fields>
+        <label><!-- Banner --></label>
+        <name>BGR_Banner__c</name>
+        <relationshipLabel><!-- Business Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bypass Process --></label>
+        <name>BGR_BypassProcess__c</name>
+        <picklistValues>
+            <masterLabel>P08 - BGR - Init Business Group</masterLabel>
+            <translation><!-- P08 - BGR - Init Business Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P09 - BGR - Set Generic User</masterLabel>
+            <translation><!-- P09 - BGR - Set Generic User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P10 - BGR - Flag all accounts related to selected banner</masterLabel>
+            <translation><!-- P10 - BGR - Flag all accounts related to selected banner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Geography --></label>
+        <name>BGR_Geography__c</name>
+    </fields>
+    <fields>
+        <label><!-- Network --></label>
+        <name>BGR_Network__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Business Group --></label>
+        <name>BGR_ParentBusinessGroup__c</name>
+        <relationshipLabel><!-- Children Business Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Account --></label>
+        <name>BGR_PrimaryAccount__c</name>
+        <relationshipLabel><!-- Related Business Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>BGR_PrimaryContact__c</name>
+        <relationshipLabel><!-- Business Groups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>BGR_Type__c</name>
+        <picklistValues>
+            <masterLabel>Buying Group</masterLabel>
+            <translation><!-- Buying Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chain</masterLabel>
+            <translation><!-- Chain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner</masterLabel>
+            <translation><!-- Owner --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Account Business Group Layout</layout>
+        <sections>
+            <label><!-- Administration Section --></label>
+            <section>Administration Section</section>
+        </sections>
+        <sections>
+            <label><!-- Business Group Details --></label>
+            <section>Business Group Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Owner Business Group Layout</layout>
+        <sections>
+            <label><!-- Administration Section --></label>
+            <section>Administration Section</section>
+        </sections>
+        <sections>
+            <label><!-- Business Group Details --></label>
+            <section>Business Group Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Account Business Group --></label>
+        <name>AccountBusinessGroup</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Owner Business Group --></label>
+        <name>OwnerBusinessGroup</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please select a banner. --></errorMessage>
+        <name>VR02_BGR_MandatoryBanner</name>
+    </validationRules>
+</CustomObjectTranslation>

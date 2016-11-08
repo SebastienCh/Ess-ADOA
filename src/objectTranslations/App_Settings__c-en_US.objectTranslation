@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>App Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>App Settings</value>
+    </caseValues>
+    <fields>
+        <help><!-- Generic User ID for BBGR Network in Denmark --></help>
+        <label><!-- DK BBGR Generic User --></label>
+        <name>DK_BBGR_Generic_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- Generic User ID for Essilor Network in Denmark --></help>
+        <label><!-- DK Essilor Generic User --></label>
+        <name>DK_Essilor_Generic_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- Generic User ID for X-network in Denmark --></help>
+        <label><!-- DK X-Network Generic User --></label>
+        <name>DK_X_Network_Generic_User__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

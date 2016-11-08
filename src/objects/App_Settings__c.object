@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>Used to store IDs, numbers (thresholds, percents...) or any value instead of hardcoding them</description>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>DK_BBGR_Generic_User__c</fullName>
+        <description>Generic User ID for BBGR Network in Denmark</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Generic User ID for BBGR Network in Denmark</inlineHelpText>
+        <label>DK BBGR Generic User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DK_Essilor_Generic_User__c</fullName>
+        <description>Generic User ID for Essilor Network in Denmark</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Generic User ID for Essilor Network in Denmark</inlineHelpText>
+        <label>DK Essilor Generic User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DK_X_Network_Generic_User__c</fullName>
+        <description>Generic User ID for X-network in Denmark</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Generic User ID for X-network in Denmark</inlineHelpText>
+        <label>DK X-Network Generic User</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>App Settings</label>
+    <visibility>Public</visibility>
+</CustomObject>

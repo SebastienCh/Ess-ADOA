@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Instruments</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Instruments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Competitor Contract End Date --></label>
+        <name>Competitor_Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Customer__c</name>
+        <relationshipLabel><!-- Instruments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Essilor Contract --></label>
+        <name>Essilor_Contract__c</name>
+        <relationshipLabel><!-- Instruments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Financing (End) --></label>
+        <name>Financing_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financing (Start) --></label>
+        <name>Financing_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installation Date --></label>
+        <name>Installation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installation Month --></label>
+        <name>Installation_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Installation Year --></label>
+        <name>Installation_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Value --></label>
+        <name>Invoice_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Letzter Zählerstand --></help>
+        <label><!-- Last Inspection Date --></label>
+        <name>Last_Inspection_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Serial Nr. --></label>
+        <name>Nr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nr. of edged Lenses --></label>
+        <name>Nr_of_edged_Lenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Instruments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payment Type --></label>
+        <name>Payment_Type__c</name>
+        <picklistValues>
+            <masterLabel>Cash</masterLabel>
+            <translation><!-- Cash --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leasing</masterLabel>
+            <translation><!-- Leasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lens Discount</masterLabel>
+            <translation><!-- Lens Discount --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Hochrechnung p.a. --></help>
+        <label><!-- Projection p.a. --></label>
+        <name>Projection_p_a__c</name>
+    </fields>
+    <fields>
+        <label><!-- Removal Date --></label>
+        <name>Removal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Removal Month --></label>
+        <name>Removal_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Removal Year --></label>
+        <name>Removal_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supplier --></label>
+        <name>Supplier__c</name>
+        <picklistValues>
+            <masterLabel>Essilor</masterLabel>
+            <translation><!-- Essilor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nika</masterLabel>
+            <translation><!-- Nika --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;H</masterLabel>
+            <translation><!-- R&amp;H --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weco</masterLabel>
+            <translation><!-- Weco --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Automaten Typ --></help>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Edger</masterLabel>
+            <translation><!-- Edger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lesegerät</masterLabel>
+            <translation><!-- Lesegerät --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phoropter Reichert</masterLabel>
+            <translation><!-- Phoropter Reichert --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges</masterLabel>
+            <translation><!-- Sonstiges --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Warranty End Date --></label>
+        <name>Warranty_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warranty Start Date --></label>
+        <name>Warranty_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Production Year --></label>
+        <name>Year_of_Production__c</name>
+    </fields>
+    <layouts>
+        <layout>Instruments Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Data --></label>
+            <section>Financial Data</section>
+        </sections>
+        <sections>
+            <label><!-- Instrument Detail --></label>
+            <section>Instrument Detail</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Competitor --></label>
+        <name>Competitor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Essilor --></label>
+        <name>Essilor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Nautilus --></label>
+        <name>Nautilus</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Visioffice --></label>
+        <name>Visioffice</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

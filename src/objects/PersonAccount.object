@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <compactLayoutAssignment>SYSTEMPersonAccount</compactLayoutAssignment>
+    <enableHistory>true</enableHistory>
+    <recordTypes>
+        <fullName>ACC_RT_OwnerAccount</fullName>
+        <active>true</active>
+        <description>Select Owner Account if you are recording an Owner (a person)</description>
+        <label>Owner Account</label>
+        <picklistValues>
+            <picklist>ACC_ApprovalStatus__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_BrandVisibility__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_BypassProcess__c</picklist>
+            <values>
+                <fullName>P01 - ACC - Set Account Geography and Network</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P02 - ACC - Create Partner Accounts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P03 - ACC - Inherit Banners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P04 - ACC - Inherit Customer Block</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P06 - ACC - Submit for Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P07 - ACC - Set Generic User</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>P11 - ACC - Affiliate Account to Business Group</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_PotentialBBGR__c</picklist>
+            <values>
+                <fullName>Large %28%3E 60 k%E2%82%AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium %2830 - 60 k%E2%82%AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small %28%3C 30 k%E2%82%AC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_PotentialEssilor__c</picklist>
+            <values>
+                <fullName>Large %28%3E 60 k%E2%82%AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium %2830 - 60 k%E2%82%AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small %28%3C 30 k%E2%82%AC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_PotentialNikkon__c</picklist>
+            <values>
+                <fullName>Large %28%3E 60 k%E2%82%AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium %2830 - 60 k%E2%82%AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Small %28%3C 30 k%E2%82%AC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_ShopLevel__c</picklist>
+            <values>
+                <fullName>Basement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ground Floor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Upper Floor</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_ShopLocation__c</picklist>
+            <values>
+                <fullName>Mall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pedestrian Zone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Street</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_SoWBBGR__c</picklist>
+            <values>
+                <fullName>CBF %2820 - 50 %25%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MS %28%3E 50 %25%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NW %28%3C 20%25%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_SoWEssilor__c</picklist>
+            <values>
+                <fullName>CBF %2820 - 50 %25%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MS %28%3E 50 %25%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NW %28%3C 20%25%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ACC_SoWNikkon__c</picklist>
+            <values>
+                <fullName>CBF %2820 - 50 %25%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MS %28%3E 50 %25%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NW %28%3C 20%25%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>AccountSource</picklist>
+            <values>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Employee Referral</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Google AdWords</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased List</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trade Show</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Website</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Dispensing_Tool_Essilor__c</picklist>
+            <values>
+                <fullName>Eye Ruler</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visioffice 1%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visioffice 2%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visiostaff</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Dispensing_Tools__c</picklist>
+            <values>
+                <fullName>Essilor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hoya</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rodenstock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Zeiss</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Function__pc</picklist>
+            <values>
+                <fullName>Back Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Decision Maker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Front Office</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opinion Leader</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Industry</picklist>
+            <values>
+                <fullName>Agriculture</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Apparel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Banking</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Biotechnology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Communications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consulting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electronics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Entertainment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Environmental</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Finance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Food %26 Beverage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Government</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Healthcare</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Machinery</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Manufacturing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Media</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not For Profit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recreation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Retail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Technology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transportation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Ownership</picklist>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Subsidiary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Position__pc</picklist>
+            <values>
+                <fullName>General Manager</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Store Manager</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rating</picklist>
+            <values>
+                <fullName>Cold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warm</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Master Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Network Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Owner Account</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <sharingModel>Private</sharingModel>
+</CustomObject>

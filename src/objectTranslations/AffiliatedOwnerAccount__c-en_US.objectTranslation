@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Affiliated Owner Account</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Affiliated Owner Accounts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Business Group --></label>
+        <name>AOA_BusinessGroup__c</name>
+        <relationshipLabel><!-- Affiliated Owner Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Owner Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- Value does not match filter criteria. Please select an owner account. --></errorMessage>
+        </lookupFilter>
+        <name>AOA_OwnerAccount__c</name>
+        <relationshipLabel><!-- Business Group Affiliation --></relationshipLabel>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Affiliated Business Account</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Affiliated Business Accounts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Business Group --></label>
+        <name>ABA_BusinessGroup__c</name>
+        <relationshipLabel><!-- Affiliated Business Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bypass Process --></label>
+        <name>ABA_BypassProcess__c</name>
+        <picklistValues>
+            <masterLabel>P05 - BGM - SetMasterAccount</masterLabel>
+            <translation><!-- P05 - BGM - SetMasterAccount --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Master Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- Only Master Accounts can be chosen --></errorMessage>
+        </lookupFilter>
+        <name>ABA_MasterAccount__c</name>
+        <relationshipLabel><!-- Business Group Affiliations (Master) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Network Account --></label>
+        <lookupFilter>
+            <errorMessage><!-- Only Network or Owner accounts can be affiliated to a Business Group --></errorMessage>
+        </lookupFilter>
+        <name>ABA_NetworkAccount__c</name>
+        <relationshipLabel><!-- Business Group Affiliations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Affiliated --></label>
+        <name>ABA_isAffiliated__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Business Group Membership Layout</layout>
+        <sections>
+            <label><!-- Administration Section --></label>
+            <section>Administration Section</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

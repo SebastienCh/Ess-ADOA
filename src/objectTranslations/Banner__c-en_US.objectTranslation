@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Banner</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Banners</value>
+    </caseValues>
+    <fields>
+        <help><!-- Tick this box to make the banner available to all selected Geographies. If unchecked, the value won&apos;t be deployed. --></help>
+        <label><!-- Active --></label>
+        <name>BAN_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please select all Geographies this banner should be visible to --></help>
+        <label><!-- Geographies --></label>
+        <name>BAN_Geographies__c</name>
+    </fields>
+    <layouts>
+        <layout>Banner Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please select at least one Geography before activating this record. --></errorMessage>
+        <name>VR01_BAN_MandatoryGeographies</name>
+    </validationRules>
+</CustomObjectTranslation>

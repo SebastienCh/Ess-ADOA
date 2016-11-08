@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Read</accountAccessLevel>
+    <caseAccessLevel>Read</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>NORDICS</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentTerritory>EU</parentTerritory>
+</Territory>

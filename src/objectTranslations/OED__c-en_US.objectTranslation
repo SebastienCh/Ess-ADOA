@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>OED</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>OED</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- OED --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (Month) --></label>
+        <name>GW_Gross_Value_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (PY) --></label>
+        <name>GW_Gross_Value_PY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (Year) --></label>
+        <name>GW_Gross_Value_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (Month) --></label>
+        <name>GW_Value_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (PY) --></label>
+        <name>GW_Value_PY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (Year) --></label>
+        <name>GW_Value_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (Month) --></label>
+        <name>PN_Gross_Value_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (PY) --></label>
+        <name>PN_Gross_Value_PY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (Year) --></label>
+        <name>PN_Gross_Value_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (PY) --></label>
+        <name>PN_Value_PY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (Month) --></label>
+        <name>PN_Value_Percent_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (Year) --></label>
+        <name>PN_Value_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (Month) --></label>
+        <name>SU_Gross_Value_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (PY) --></label>
+        <name>SU_Gross_Value_PY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (Year) --></label>
+        <name>SU_Gross_Value_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (Month) --></label>
+        <name>SU_Value_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (PY) --></label>
+        <name>SU_Value_PY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (Year) --></label>
+        <name>SU_Value_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (Month) --></label>
+        <name>WA_Gross_Value_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (PY) --></label>
+        <name>WA_Gross_Value_PY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Value (Year) --></label>
+        <name>WA_Gross_Value_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (Month) --></label>
+        <name>WA_Value_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (PY) --></label>
+        <name>WA_Value_PY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value % (Year) --></label>
+        <name>WA_Value_Year__c</name>
+    </fields>
+    <layouts>
+        <layout>OED Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Garanties --></label>
+            <section>Garanties</section>
+        </sections>
+        <sections>
+            <label><!-- Goodwill --></label>
+            <section>Goodwill</section>
+        </sections>
+        <sections>
+            <label><!-- Personal Needs --></label>
+            <section>Personal Needs</section>
+        </sections>
+        <sections>
+            <label><!-- Total --></label>
+            <section>Total</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ownership</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ownership</value>
+    </caseValues>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account_del__c</name>
+        <relationshipLabel><!-- Ownership --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Nr --></label>
+        <name>Customer_Nr__c</name>
+    </fields>
+    <layouts>
+        <layout>Ownership Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

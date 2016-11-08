@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Instrument Counter</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Instrument Counter</value>
+    </caseValues>
+    <fields>
+        <label><!-- Date --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Instruments --></label>
+        <name>Instrument__c</name>
+        <relationshipLabel><!-- Instrument Counter --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Instrument Counter Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

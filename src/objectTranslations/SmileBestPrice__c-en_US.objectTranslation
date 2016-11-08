@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>SmileBestPrice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>SmileBestPrice</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- SmileBestPrice --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bemerkung BuH --></label>
+        <name>Bemerkung_BuH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bemerkung Vtr --></label>
+        <name>Bemerkung_Vtr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Code --></label>
+        <name>Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>Contract__c</name>
+        <relationshipLabel><!-- SmileBestPrice --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- From --></label>
+        <name>From__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price NetNet --></label>
+        <name>Price_NetNet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <picklistValues>
+            <masterLabel>Smile GL kurz org</masterLabel>
+            <translation><!-- Smile GL kurz org --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smile GL kurz org.</masterLabel>
+            <translation><!-- Smile GL kurz org. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smile GL org 1.6</masterLabel>
+            <translation><!-- Smile GL org 1.6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smile GL org. 1.5</masterLabel>
+            <translation><!-- Smile GL org. 1.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smile GL org. 1.5 S</masterLabel>
+            <translation><!-- Smile GL org. 1.5 S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smile org. 1.5 HSC</masterLabel>
+            <translation><!-- Smile org. 1.5 HSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smile org. 1.5 Sun</masterLabel>
+            <translation><!-- Smile org. 1.5 Sun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smile org. 1.6 Sun</masterLabel>
+            <translation><!-- Smile org. 1.6 Sun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smile org. 1.6 sph</masterLabel>
+            <translation><!-- Smile org. 1.6 sph --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- To --></label>
+        <name>To__c</name>
+    </fields>
+    <layouts>
+        <layout>SmileBestPrice Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

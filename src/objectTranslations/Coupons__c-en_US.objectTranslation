@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Coupon</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Coupons</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Coupons --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cash Date --></label>
+        <name>Cash_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cashed --></label>
+        <name>Cashed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Issue Date --></label>
+        <name>Issue_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number --></label>
+        <name>Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>Reason__c</name>
+        <picklistValues>
+            <masterLabel>Compensation</masterLabel>
+            <translation><!-- Compensation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebate in kind</masterLabel>
+            <translation><!-- Rebate in kind --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Finishing</masterLabel>
+            <translation><!-- Finishing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lenses</masterLabel>
+            <translation><!-- Lenses --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Value (Pair) --></label>
+        <name>Value_Pair__c</name>
+    </fields>
+    <layouts>
+        <layout>Coupon Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

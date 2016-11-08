@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bonus/Stamm-Nr.</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bonus/Stamm-Nr.</value>
+    </caseValues>
+    <fields>
+        <label><!-- Brand --></label>
+        <name>Brand_Bonus_Nr__c</name>
+        <picklistValues>
+            <masterLabel>Essilor</masterLabel>
+            <translation><!-- Essilor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nika</masterLabel>
+            <translation><!-- Nika --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R&amp;H</masterLabel>
+            <translation><!-- R&amp;H --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Bonus/Stamm-Nr. Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
